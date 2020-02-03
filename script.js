@@ -70,7 +70,7 @@ button4.onclick = function(){
 //below for contect nav interaction
 
 var video = document.getElementById("vimeoVideo");
-var open = document.getElementById("videoContent");
+var open = document.getElementById("theVideo");
 var close = document.getElementById("vimeoVideo");
 
 open.onclick = function(){
@@ -94,5 +94,33 @@ close.onclick = function(){
     } else{
         //expand the box
         video.className = "";
+    }
+};
+
+var video1 = document.getElementById("vimeoVideo_1");
+var open1 = document.getElementById("theVideo_1");
+var close1 = document.getElementById("vimeoVideo_1");
+
+open1.onclick = function(){
+    
+    if(video1.className == "hide"){
+        //shrink the box
+        video.className = "";
+        
+    } else{
+        //expand the box
+        video1.className = "";
+    }
+};
+
+close1.onclick = function(){
+    
+    if(video1.className == ""){
+        //shrink the box
+        video1.className = "hide";
+        
+    } else{
+        //expand the box
+        video1.className = "";
     }
 };
