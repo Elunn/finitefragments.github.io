@@ -54,7 +54,7 @@ a:hover {
 
 #img1{
     background-image: url(assets/Rocks_2.png);
-    animation:rocks2 20s linear infinite;
+    animation:rocks2 40s linear infinite;
     z-index: 0;
     background-attachment: fixed;
     z-index: -10;
@@ -65,7 +65,7 @@ a:hover {
     background-image: url(assets/Rocks.png);
     overflow: hidden;
     background-position: center;
-    animation:rocks 30s linear infinite;
+    animation:rocks 50s linear infinite;
     z-index: -9;
 }
 
