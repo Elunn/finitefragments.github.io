@@ -70,14 +70,14 @@ a:hover {
 }
 
 @keyframes rocks {
-    0%{background-position: -100% 100%;}
-    50%{background-position: -40% -100%;}
-    100%{background-position: -100% 100%;}
+    0%{background-position: -100vh 100vh;}
+    50%{background-position: -40vh -100vh;}
+    100%{background-position: -100vh 100vh;}
 }
 
 @keyframes rocks2 {
     0%{background-position: 0 0;}
-    50%{background-position: 40% 100%;}
+    50%{background-position: 40vh 100vh;}
     100%{background-position: 0 0;}
 }
 
