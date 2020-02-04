@@ -105,7 +105,7 @@ open1.onclick = function(){
     
     if(video1.className == "hide"){
         //shrink the box
-        video.className = "";
+        video1.className = "";
         
     } else{
         //expand the box
