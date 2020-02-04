@@ -232,11 +232,10 @@ h1.introButton {
     display: none;
 }
 
-@media screen and (min-width: 900px) {
-    #intro img{
+@media screen and (min-width: 1200px) {
+    #intro img{ 
         display: block;
         width: 100%;
-        height: auto;
     }
     
     #intro {
@@ -252,6 +251,7 @@ h1.introButton {
 
 #about img{
     width: 100%;
+    height: auto;
     padding: 1em 0;
 }
 
@@ -292,12 +292,14 @@ td {
     }
     #about img{
         width: 80%;
+        height: auto;
 }
 }
 
 @media screen and (min-width: 1200px) {
     #about img{
         width: 60%;
+        height: auto;
     }
 }
 
